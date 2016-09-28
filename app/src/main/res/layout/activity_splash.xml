@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.kk.activity.SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/splash_bigphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/kk_loading_bg2"
+        />
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+           android:layout_marginTop="90dp"
+         android:layout_centerHorizontal="true"
+         android:src="@mipmap/kk_loading_content"/>
+    <ImageView
+        android:id="@+id/splash_blackphoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"
+        android:layout_below="@+id/splash_bigphoto"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/kk_login_logo"
+        android:layout_below="@+id/splash_bigphoto"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="23dp"
+        />
+</RelativeLayout>

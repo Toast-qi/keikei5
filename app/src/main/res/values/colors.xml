@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorOrange">#FF8200</color>
+    <color name="colorGray">#939393</color>
+    <color name="colorShallowGray">#F7F7F7</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colortab">#f1edea</color>
+    <color name="colorrecyclerview">#ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorgraiy">#F7F7F7</color>
+    <color name="colorOrangee">#FF8400</color>
+    <color name="colorBrown">#70553A</color>
+    <color name="colorRegisterTextBackground">#70553A</color>
+    <color name="colorRegisterText">#606268</color>
+
+    <color name="colorseek">#eaeef1</color>
+     <color name="coloraboutActivity">#D9D9D9</color>
+
+
+</resources>

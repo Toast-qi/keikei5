@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">kk</string>
+    <string name="kk_navigation_tab_dynamic">动态</string>
+    <string name="kk_navigation_tab_live">直播</string>
+    <string name="kk_navigation_tab_me">我的</string>
+    <string name="kk_navigation_tab_news">消息</string>
+
+    <string name="live_tab_homepage">首页</string>
+    <string name="live_tab_hot">热门</string>
+    <string name="live_tab_year">年度盛典</string>
+    <string name="live_tab_youngster">新秀</string>
+    <string name="live_tab_game">游戏竞技</string>
+
+    <string name="dynamic_hot_topic">热门话题</string>
+    <string name="dynamic_attention">关注</string>
+
+    <string name="register_phonejoin">手机号快捷登录</string>
+    <string name="register_phone_editText">手机号/ID号/用户名</string>
+    <string name="register_new_person">新用户注册</string>
+    <string name="register_forget_password">忘记密码</string>
+    <string name="register_password">密码</string>
+    <string name="register_movephone">手机号</string>
+    <string name="register_message_code">6位短信验证码</string>
+    <string name="register_first_login">首次登录的手机号将自动创建为kk账号</string>
+    <string name="register_kk_ID">kk账号登录</string>
+
+
+    <string name="kk_meFragment_login">登录/注册</string>
+    <string name="kk_meFragment_family">家族</string>
+    <string name="kk_meFragment_mymoney">我的财富 :</string>
+    <string name="kk_meFragment_firstgift">首次充值送好礼</string>
+    <string name="kk_meFragment_pay">充值</string>
+    <string name="kk_meFragment_shop">商城</string>
+    <string name="kk_meFragment_task">任务</string>
+    <string name="kk_meFragment_bubble">免费领取420秀币</string>
+    <string name="kk_meFragment_guard">我守护的</string>
+    <string name="kk_meFragment_history">观看历史</string>
+    <string name="kk_meFragment_mange">我管理的</string>
+    <string name="kk_meFragment_myself">我关注的</string>
+    <string name="kk_meFragment_noLogin">您还没有登录哦～</string>
+
+    <string name="kk_setActivity_set">设置</string>
+    <string name="kk_setActivity_roomAnim">房间动画</string>
+    <string name="kk_setActivity_warm">推送提醒</string>
+    <string name="kk_setActivity_tickling">意见反馈</string>
+    <string name="kk_setActivity_update">检查更新</string>
+    <string name="kk_setActivity_about">关于本软件</string>
+    <string name="kk_setActivity_newVersion">新版本:5.1.5</string>
+    <string name="kk_setActivity_login">登 录</string>
+
+    <string name="kk_meFamily_family">家族</string>
+    <string name="kk_meFamily_foundFamily">创建家族</string>
+
+
+    <string name="kk_mefamily_emeer">族长:</string>
+    <string name="kk_mefamily_anchor">主播:</string>
+    <string name="kk_mefamily_member">成员:</string>
+
+    <string name="kk_seekActivity">搜索用户昵称/ID号/动态</string>
+    <string name="kk_seekActivity_cancle">取消</string>
+
+    <string name="kk_aboutActivity_centerhelp">帮助中心</string>
+
+
+    <string name="kk_newbook_subsist">新手生存战</string>
+    <string name="kk_newbook_kkanchor">KK主播招聘</string>
+    <string name="kk_newbook_kkwhat">KK是什么？</string>
+
+    <string name="kk_newbook_anchotlv">什么是明星等级？</string>
+    <string name="kk_newbook_richlv">什么是财富等级？</string>
+    <string name="kk_newbook_kaopu">如何充值最靠谱？</string>
+    <string name="kk_newbook_setgift">如何送礼表达心意？</string>
+
+
+    <string name="kk_officalcustomer_customer">在线客服:</string>
+    <string name="kk_officalcustomer_auchor">招聘主播:</string>
+    <string name="kk_officalcustomer_pay">充值咨询:</string>
+    <string name="kk_officalcustomer_skill">技术支持:</string>
+    <string name="kk_officalcustomer_auchortrain">主播培训:</string>
+    <string name="kk_officalcustomer_facility">设备调节:</string>
+    <string name="kk_officalcustomer_application">活动申请:</string>
+    <string name="kk_officalcustomer_onduty">值班巡警:</string>
+
+    <string name="kk_offiaclcustomer_telphone">联系电话：4008269186</string>
+
+    <string name="kk_roomanim_roomanim">房间动画</string>
+    <string name="kk_roomanim_giftanim">礼物动画</string>
+    <string name="kk_roomanim_flyanim">飞屏动画</string>
+    <string name="kk_roomanim_enjoyanim">表情动画</string>
+    <string name="kk_roomanim_huayu">关闭后将不在房间中显示相应动画特效，可以是直播画面更流畅哦~</string>
+
+</resources>

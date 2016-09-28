@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/kk_login_background"
+    android:orientation="vertical"
+    tools:context="com.example.user.kk.activity.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/register_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kk_login_close_btn" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:src="@mipmap/kk_watermark_logo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/register_horizontal_margin"
+                android:layout_marginRight="@dimen/register_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/kk_edit_phone_icon" />
+
+                <EditText
+                    android:id="@+id/phone_phonenum_edtv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="@color/colorWhite"
+                    android:hint="@string/register_phone_editText"
+                    android:textColorHint="@color/colorRegisterText"
+                    android:textSize="@dimen/kk_register_edit_size" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/kk_active_arrow_down" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/register_horizontal_margin"
+                android:layout_marginRight="@dimen/register_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/kk_edit_lock_icon" />
+
+                <EditText
+                    android:id="@+id/phone_message_code_edtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="@color/colorWhite"
+
+                    android:hint="@string/register_password"
+                    android:password="true"
+                    android:textColorHint="@color/colorRegisterText"
+                    android:textSize="@dimen/kk_register_edit_size" />
+
+                <ImageView
+                    android:id="@+id/phone_arrow_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/kk_active_arrow_down" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/register_horizontal_margin"
+                android:layout_marginRight="@dimen/register_horizontal_margin"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/phone_first_sign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_new_person"
+                    android:textColor="@drawable/register_textcolor"
+                    android:textSize="@dimen/kk_register_size" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/phone_forget_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_forget_password"
+                    android:textColor="@drawable/register_textcolor"
+                    android:textSize="@dimen/kk_register_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--<cccc      点击手机号时  的登录界面            ccccc>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/register_horizontal_margin"
+                android:layout_marginRight="@dimen/register_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/kk_edit_phone_icon" />
+
+
+
+                <!--手机号-->
+                <EditText
+                    android:id="@+id/kk_phonenum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="@color/colorWhite"
+                    android:visibility="invisible"
+                    android:hint="@string/register_movephone"
+                    android:textColorHint="@color/colorRegisterText"
+                    android:textSize="@dimen/kk_register_edit_size" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/kk_active_arrow_down" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/register_horizontal_margin"
+                android:layout_marginRight="@dimen/register_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/kk_edit_lock_icon" />
+
+                <!--   6位短信验证号码-->
+
+                <EditText
+                    android:id="@+id/message_code_edtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:textColor="@color/colorWhite"
+                    android:hint="@string/register_message_code"
+                    android:background="@null"
+                    android:password="true"
+                    android:textColorHint="@color/colorRegisterText"
+                    android:textSize="@dimen/kk_register_edit_size" />
+
+              <!--获取验证码图片-->
+
+                <ImageView
+                    android:id="@+id/kk_message_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:src="@mipmap/messagenum" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/register_horizontal_margin"
+                android:layout_marginRight="@dimen/register_horizontal_margin"
+                android:gravity="center">
+<!--首次登录的手机号将自动创建为KK账号-->
+                <TextView
+                    android:id="@+id/first_login_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:text="@string/register_first_login"
+                    android:textColor="@drawable/register_textcolor"
+                    android:textSize="@dimen/kk_register_size" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/login_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_text"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/register_horizontal_margin"
+        android:layout_marginRight="@dimen/register_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/register_text"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@drawable/register_textcolor"
+        android:textSize="@dimen/kk_register_size" />
+
+
+    <!--下面手机号登录的界面-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/register_horizontal_margin"
+        android:layout_marginRight="@dimen/register_horizontal_margin"
+        android:gravity="center">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+        <!--第一个为手机号快捷登录-->
+        <TextView
+
+            android:id="@+id/phone_fast_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_phonejoin"
+
+
+            android:textColor="@drawable/register_textcolor"
+            android:textSize="@dimen/kk_register_size" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/kk_apply_none_next" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/register_horizontal_margin"
+            android:layout_marginRight="@dimen/register_horizontal_margin"
+            android:gravity="center">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+              <!--kk账号Id-->
+            <TextView
+                android:id="@+id/kk_ID"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register_kk_ID"
+                android:textColor="@drawable/register_textcolor"
+                android:textSize="@dimen/kk_register_size" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/kk_apply_none_next" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/register_horizontal_margin"
+        android:layout_marginRight="@dimen/register_horizontal_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/kk_login_qq" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/kk_login_weixin" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/kk_login_weibo" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/kk_login_alipay" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/register_horizontal_margin"
+        android:text="使用即视为同意KK软件(网站)用户服务协议"
+        android:textColor="@color/colorRegisterText"
+        android:textSize="@dimen/kk_test_large_size" />
+
+
+</LinearLayout>

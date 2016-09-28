@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.kk.activity.SeekActivity"
+    android:background="@color/colorseek"
+
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorrecyclerview"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/seek_quxiao"
+        android:background="@drawable/item2"
+        android:id="@+id/linearLayout">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/kk_group_search_normal"
+            android:layout_margin="5dp"/>
+        <EditText
+            android:id="@+id/seek_edittex"
+            android:layout_weight="1"
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:hint="@string/kk_seekActivity"
+            android:textColorHint="@color/colorRegisterText"
+            android:singleLine="true"
+            android:background="@null"/>
+
+        <ImageView
+            android:id="@+id/seek_iv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/delete"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/seek_quxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kk_seekActivity_cancle"
+            android:textSize="20sp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

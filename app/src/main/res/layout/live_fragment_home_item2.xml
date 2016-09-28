@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <com.example.user.kk.view.RoundImageView
+            android:id="@+id/live_fragment_home2_header1_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/app_icon"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/live_fragment_home2_header1_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/left_star_name_bg"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/live_fragment_home2_header1_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jhdfj"
+            android:layout_alignBottom="@+id/live_fragment_home2_header1_tv"
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/live_fragment_home2_header1_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp">
+
+
+        <ImageView
+            android:id="@+id/live_fragment_home2_header1_iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/kk_room_mem_count_left"/>
+        <TextView
+            android:id="@+id/live_fragment_home2_header1_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jhdfj"
+             />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <com.example.user.kk.view.RoundImageView
+            android:id="@+id/live_fragment_home2_header2_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/app_icon"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/live_fragment_home2_header2_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/middle_star_name_bg"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/live_fragment_home2_header2_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jhdfj"
+            android:layout_alignBottom="@+id/live_fragment_home2_header2_tv"
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/live_fragment_home2_header2_tv"
+            android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/live_fragment_home2_header2_iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/kk_room_mem_count_left"
+            />
+
+        <TextView
+            android:id="@+id/live_fragment_home2_header2_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jhdfj"
+            />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <com.example.user.kk.view.RoundImageView
+            android:id="@+id/live_fragment_home2_header3_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/app_icon"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/live_fragment_home2_header3_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right_star_name_bg"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/live_fragment_home2_header3_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jhdfj"
+            android:layout_alignBottom="@+id/live_fragment_home2_header3_tv"
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/live_fragment_home2_header3_tv"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:id="@+id/live_fragment_home2_header3_iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/kk_room_mem_count_left"/>
+        <TextView
+            android:id="@+id/live_fragment_home2_header3_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jhdfj"
+            />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
